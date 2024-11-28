@@ -1,0 +1,95 @@
+/* Geral - Estilo do Body */
+body {
+  font-family: Arial, sans-serif; /* Fonte simples e legível */
+  background-color: #69bcd7; /* Cor de fundo clara */
+  color: #020f0f; /* Cor do texto */
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo para os Títulos (h1, h2, h3, h4) */
+h1, h2, h3, h4 {
+  text-align: center; /* Centralizar os títulos */
+  color: #020000; /* Cor escura para os títulos */
+  margin-top: 20px; /* Espaço acima dos títulos */
+}
+
+h1 {
+  font-size: 2.5em; /* Tamanho maior para o título principal */
+}
+
+h2 {
+  font-size: 2em; /* Tamanho para o subtítulo h2 */
+  color: #000000; /* Cor azul para h2 */
+}
+
+h3 {
+  font-size: 1.8em; /* Tamanho um pouco menor para h3 */
+  color: #0c0601; /* Cor vermelha para h3 */
+}
+
+h4 {
+  font-size: 1.6em; /* Tamanho para o h4 */
+  color: #100101; /* Cor verde para h4 */
+}
+
+/* Estilo para os parágrafos */
+p {
+  font-size: 16px; /* Tamanho da fonte */
+  line-height: 1.6; /* Espaçamento entre as linhas */
+  text-align: justify; /* Justificar o texto */
+  margin: 20px 40px; /* Espaçamento nas laterais e em cima/baixo */
+}
+
+/* Estilo das Imagens */
+img {
+  width: 100%; /* As imagens irão ocupar toda a largura da tela */
+  max-width: 800px; /* Limita a largura máxima das imagens */
+  height: auto; /* Ajusta a altura proporcionalmente */
+  display: block; /* Faz a imagem se comportar como um bloco */
+  margin: 20px auto; /* Centraliza a imagem horizontalmente e dá espaçamento */
+}
+
+/* Estilo para o layout geral */
+.container {
+  width: 80%; /* Limita a largura do conteúdo */
+  margin: 0 auto; /* Centraliza o conteúdo */
+  padding: 0 20px; /* Padding para não grudar nas bordas */
+}
+
+/* Tornar a página responsiva em dispositivos móveis */
+@media (max-width: 768px) {
+  h1 {
+      font-size: 2em; /* Reduz o tamanho da fonte do h1 em telas pequenas */
+      text-align: center;
+  }
+
+  h2 {
+      font-size: 1.5em; /* Reduz o tamanho do h2 */
+      text-align: center;
+  }
+
+  h3 {
+      font-size: 1.3em; /* Reduz o tamanho do h3 */
+      text-align: center;
+      
+
+  }
+
+  h4 {
+      font-size: 1.2em; /* Reduz o tamanho do h4 */
+      text-align: center;
+  }
+
+  p {
+      font-size: 14px; /* Reduz o tamanho da fonte nos parágrafos */
+  }
+
+  img {
+      width: 70px; /* As imagens vão ocupar toda a largura na tela */
+     
+     height: 80PX;
+
+  }   
+}
+ 
